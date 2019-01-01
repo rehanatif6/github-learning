@@ -2,3 +2,21 @@ git config --global user.email "jazibisbest45@gmail.com"
 git config --global user.name "rehanatif6"
 
 git init
+git add [filename] || -A
+git status
+git commit -m "msg"
+git remote add origin https://github.com/rehanatif6/github-learning.git
+git clone https://github.com/rehanatif6/github-learning.git       reponame
+
+git push origin master
+
+----------------------------------------------------------------------------------------------------------------------------------------Site Comands--------------------------------------------------------
+
+
+
+echo "# github-learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rehanatif6/github-learning.git
+git push -u origin master
