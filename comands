@@ -5,10 +5,11 @@ git init
 git add [filename] || -A
 git status
 git commit -m "msg"
-git remote add origin https://github.com/rehanatif6/github-learning.git
-git clone https://github.com/rehanatif6/github-learning.git       reponame
+//just for remoting to thr orihin its will use one time in project life
+git remote add origin https://github.com/rehanatif6/github-learning.git 
+git clone https://github.com/rehanatif6/github-learning.git       reponame used for getting the latest version
 
-git push origin master
+git push origin master   used for push the files in to the github
 
 ----------------------------------------------------------------------------------------------------------------------------------------Site Comands--------------------------------------------------------
 
